@@ -24,6 +24,7 @@ html, body {
     padding: 0;
     width: 100%;
     min-width: 320px;
+    max-width: 640px;
     overflow-x: hidden;
     font-family: 'Roboto', 'Myriad Pro', sans-serif;
     background-color: #FFF;
