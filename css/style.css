@@ -1,0 +1,150 @@
+/* -----------------------------------------------------------------------------
+
+    RESET & DEFAULT
+
+----------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width: 320px;
+    overflow-x: hidden;
+    font-family: 'Roboto', 'Myriad Pro', sans-serif;
+    background-color: #FFF;
+    position: relative;
+}
+
+/* -----------------------------------------------------------------------------
+
+    GLOBALS
+
+----------------------------------------------------------------------------- */
+
+.clearfix {clear: both;}
+.center {text-align: center;}
+
+/* -----------------------------------------------------------------------------
+
+    INPUT
+
+----------------------------------------------------------------------------- */
+
+input {
+    height: 28px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    padding: 0 5px;
+    border: 1px solid #CCCCCC;
+}
+
+/* -----------------------------------------------------------------------------
+
+    TEXT STYLES
+
+----------------------------------------------------------------------------- */
+
+#divider {
+    text-align: center;
+    line-height: 50px;
+}
+
+.small-title {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+/* -----------------------------------------------------------------------------
+
+    HEADER
+
+----------------------------------------------------------------------------- */
+
+#main-header {
+    width: 100%;
+    height: 60px;
+    background-color: #e76c07;
+}
+
+/* -----------------------------------------------------------------------------
+
+    FOOTER
+
+----------------------------------------------------------------------------- */
+
+#main-footer {
+    height: 40px;
+    width: 100%;
+    background-color: #EEE;
+}
+
+/* -----------------------------------------------------------------------------
+
+    MAIN WRAPPER
+
+----------------------------------------------------------------------------- */
+
+.main-wrapper {
+    position: relative;
+    height: calc(100vh - 160px);
+}
+
+/* -----------------------------------------------------------------------------
+
+    LOGIN
+
+----------------------------------------------------------------------------- */
+
+#login-wrapper {
+    position: relative;
+    margin: 100px 20px 0 20px;
+    width: calc(100% - 40px);
+}
+
+#login-form input {
+    width: 100%;
+}
+
+#login-form input[type=text], #login-form input[type=password] {
+    margin-bottom: 3px;
+}
+
+#login-form input[type=submit] {
+    background-color: #e76c07;
+    border: none;
+    color: #F9F9F9;
+    font-weight: bold;
+}
+
+/* -----------------------------------------------------------------------------
+
+    LICENSE-PLATE
+
+----------------------------------------------------------------------------- */
+
+#license-plate-form input[type=text] {
+    width: 85%;
+    float: left;
+    text-align: center;
+}
+
+#license-plate-form input[type=submit] {
+    width: 15%;
+    float: left;
+}
