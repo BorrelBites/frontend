@@ -102,7 +102,7 @@ input[type=text], input[type=email], input[type=password] {
 
 .main-wrapper {
     position: relative;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 200px);
 }
 
 /* -----------------------------------------------------------------------------
