@@ -24,7 +24,6 @@ html, body {
     padding: 0;
     width: 100%;
     min-width: 320px;
-    max-width: 640px;
     overflow-x: hidden;
     font-family: 'Roboto', 'Myriad Pro', sans-serif;
     background-color: #FFF;
@@ -37,8 +36,9 @@ html, body {
 
 ----------------------------------------------------------------------------- */
 
-.clearfix {clear: both;}
-.center {text-align: center;}
+.clearfix { clear: both; }
+.center { text-align: center; }
+.inner { position: absolute; }
 
 /* -----------------------------------------------------------------------------
 
@@ -103,7 +103,7 @@ input[type=text], input[type=email], input[type=password] {
 
 .main-wrapper {
     position: relative;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
 }
 
 /* -----------------------------------------------------------------------------
@@ -113,8 +113,7 @@ input[type=text], input[type=email], input[type=password] {
 ----------------------------------------------------------------------------- */
 
 #login-wrapper {
-    position: relative;
-    margin: 100px 20px 0 20px;
+    margin: 150px 20px 0 20px;
     width: calc(100% - 40px);
 }
 
