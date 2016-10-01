@@ -23,7 +23,11 @@ a {
 
 .main-wrapper #car-wrapper {
     width: 100%;
-    margin: 150px 20px 0 20px;
+    margin: 20px 0px 0 0px;
+}
+
+.main-wrapper h2 {
+    font-weight: 200;
 }
 
 /* -----------------------------------------------------------------------------
@@ -36,8 +40,13 @@ a {
     display: block;
     width: 100%;
     background-color: #EEE;
-    padding: 15px 0;
+    padding: 21px 0;
     border-bottom: 1px solid #CCC;
+    height: 70px;
+}
+
+#car-wrapper .car a {
+    margin-left: 35px;
 }
 
 #car-wrapper .manufacturer, #car-wrapper .car-detail, #car-wrapper .arrow {
@@ -52,6 +61,7 @@ a {
 
 #car-wrapper .car-detail {
     width: calc(100% - 125px);
+    float: left;
 }
 
 #car-wrapper .car-detail-left {
@@ -61,7 +71,7 @@ a {
 
 #car-wrapper .car-detail-right {
     float: right;
-    margin-right: 5px;
+    margin-right: -20px;
 }
 
 #car-wrapper .arrow {

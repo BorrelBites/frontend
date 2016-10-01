@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css" media="screen, handheld, projection">
     <link rel="stylesheet" href="css/style-ibo.css" media="screen, handheld, projection">
     <script type="text/javascript" src="/public/js/core.js"></script>
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css" rel="stylesheet">
 
 </head>
 
@@ -21,31 +22,25 @@
 </header>
 
 <div class="main-wrapper">
-    <p class="center">Je huidige auto's:</p>
+    <h2 class="center" style="padding-top: 20px;">Je huidige auto's:</h2>
     <div id="car-wrapper">
         <hr>
         <div class="car">
-            <p class="small-left-indent">Tesla Model S</p>
-            <p class="small-left-indent">Software versie: 8.0.1</p>
-            <div style="margin-left: 84%; margin-top: -40px; width: 105px;">
-                <img src="img/check.png" style="margin: 0 auto;">
-                <p>Up to date</p>
+            <img class="manufacturer" src="img/tesla.png">
+            <div class="car-detail">
+                <p class="car-detail-left">Tesla model S</p>
+                <p class="car-detail-right">Software versie: 8.0.1</p>
             </div>
+            <a href="#"><i class="ion-checkmark-round arrow"></i></a>
         </div>
-        <hr>
         <div class="car">
-            <p class="small-left-indent">BMW I8</p>
-            <p class="small-left-indent">Software versie: 6.5beta</p>
-            <div class="update small-left-indent">
-                <p class="center button"><a href="#">Bekijk wijzigingen</a></p>
-                <p class="center button"><a href="#">Push update naar auto</a></p>
+            <img class="manufacturer" src="img/bmw.png">
+            <div class="car-detail">
+                <p class="car-detail-left">BMW I8</p>
+                <p class="car-detail-right">Software versie: 6.5b</p>
             </div>
-            <div style="margin-left: 84%; margin-top: -60px; width: 105px;">
-                <img src="img/warning.png" style="margin: 0 auto;">
-                <p>Update beschikbaar</p>
-            </div>
+            <a href="#"><i class="ion-arrow-up-c arrow"></i></a>
         </div>
-        <hr>
     </div>
     <div id="addnewcar">
         <a href="#">
