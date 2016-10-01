@@ -7,6 +7,7 @@
 .inline { display: inline-block; }
 .small-left-indent { margin-left: 20px; }
 .small-right-indent { margin-right: 20px; }
+.center-link { margin: 0 auto;}
 a {
     text-decoration: none;
     color: inherit;
@@ -40,6 +41,12 @@ a {
 .main-wrapper #car-wrapper .car img {
     height: 20px;
     display: inline-block;
+}
+
+.main-wrapper #car-wrapper .car .manufacturer {
+    height: 60px;
+    display: inline-block;
+    margin-top: -60px;
 }
 
 .main-wrapper #car-wrapper .car .update .button {
