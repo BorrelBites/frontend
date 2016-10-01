@@ -24,6 +24,7 @@ html, body {
     padding: 0;
     width: 100%;
     min-width: 320px;
+    max-width: 640px;
     overflow-x: hidden;
     font-family: 'Roboto', 'Myriad Pro', sans-serif;
     background-color: #F9F9F9;
@@ -150,7 +151,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #login-form input[type=submit] {
-    background-color: #e76c07;
+    background-color: rgb(182, 60, 0);
     border: none;
     color: #F9F9F9;
     font-weight: bold;
@@ -209,6 +210,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #add-icon {
+    border-radius: 50%;
     position: absolute;
     width: 50px;
     z-index: 10;

@@ -86,7 +86,7 @@ a {
 }
 
 .main-wrapper #car-wrapper .car .button:hover {
-    background-color: #e76c07;
+    background-color: rgb(182, 60, 0);;
     color: #FFF;
 }
 
@@ -100,14 +100,14 @@ a {
     position: absolute;
     bottom: 50px;
     right: 50px;
-    background-color: #e76c07;
-    width: 100px;
-    height: 100px;
+    background-color: rgb(182, 60, 0);
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
 .main-wrapper #addnewcar p {
-    line-height: 100px;
+    line-height: 48px;
     color: #FFF;
     font-size: 48px;
 }
