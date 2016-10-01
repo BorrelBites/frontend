@@ -24,10 +24,9 @@ html, body {
     padding: 0;
     width: 100%;
     min-width: 320px;
-    max-width: 640px;
     overflow-x: hidden;
     font-family: 'Roboto', 'Myriad Pro', sans-serif;
-    background-color: #FFF;
+    background-color: #F9F9F9;
     position: relative;
 }
 
@@ -40,6 +39,8 @@ html, body {
 .clearfix { clear: both; }
 .center { text-align: center; }
 .inner { position: absolute; }
+.trunc { -ms-text-overflow: ellipsis; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+.full { width: 100%;}
 
 /* -----------------------------------------------------------------------------
 
@@ -62,9 +63,13 @@ input[type=text], input[type=email], input[type=password] {
 
 ----------------------------------------------------------------------------- */
 
+h1, h2, h3, h4, h5 {
+    color: #555;
+}
+
 #divider {
     text-align: center;
-    line-height: 50px;
+    line-height: 70px;
 }
 
 .small-title {
@@ -81,7 +86,12 @@ input[type=text], input[type=email], input[type=password] {
 #main-header {
     width: 100%;
     height: 60px;
-    background-color: #e76c07;
+    background-color: rgb(182, 60, 0);
+}
+
+#site-logo {
+    width: 120px;
+    margin: 10px 0 0 20px;
 }
 
 /* -----------------------------------------------------------------------------
@@ -94,6 +104,18 @@ input[type=text], input[type=email], input[type=password] {
     height: 40px;
     width: 100%;
     background-color: #EEE;
+    border-top: 1px solid #DDD;
+}
+
+/* -----------------------------------------------------------------------------
+
+    SEARCH
+
+----------------------------------------------------------------------------- */
+
+#search-wrapper {
+    width: 100%;
+    height: 30px;
 }
 
 /* -----------------------------------------------------------------------------
@@ -105,6 +127,7 @@ input[type=text], input[type=email], input[type=password] {
 .main-wrapper {
     position: relative;
     height: calc(100vh - 100px);
+    overflow-y: auto;
 }
 
 /* -----------------------------------------------------------------------------
@@ -114,7 +137,7 @@ input[type=text], input[type=email], input[type=password] {
 ----------------------------------------------------------------------------- */
 
 #login-wrapper {
-    margin: 150px 20px 0 20px;
+    margin: 100px 20px 0 20px;
     width: calc(100% - 40px);
 }
 
@@ -148,4 +171,47 @@ input[type=text], input[type=email], input[type=password] {
 #license-plate-form input[type=submit] {
     width: 15%;
     float: left;
+}
+
+/* -----------------------------------------------------------------------------
+
+    CAR ITEMS
+
+----------------------------------------------------------------------------- */
+
+#overview-wrapper {
+    width: 100%;
+}
+
+.car-item {
+    width: 100%;
+    height: 40px;
+    margin: 0 0 5px;
+    padding: 0 10px;
+    background-color: #ECECEC;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+.car-item-title {
+    line-height: 40px;
+    width: calc(100% - 30px);
+    font-size: 0.9em;
+    font-weight: bold;
+    float: left;
+}
+
+.car-item-btn {
+    width: 24px;
+    height: 24px;
+    margin: 8px 0 8px 6px;
+    float: left;
+}
+
+#add-icon {
+    position: absolute;
+    width: 50px;
+    z-index: 10;
+    right: 10px;
+    bottom: 10px;
 }
