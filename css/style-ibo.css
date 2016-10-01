@@ -1,0 +1,77 @@
+/* -----------------------------------------------------------------------------
+
+    GLOBAL
+
+----------------------------------------------------------------------------- */
+
+.inline { display: inline-block; }
+.small-left-indent { margin-left: 20px; }
+.small-right-indent { margin-right: 20px; }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* -----------------------------------------------------------------------------
+
+    CAR WRAPPER
+
+----------------------------------------------------------------------------- */
+
+.main-wrapper #car-wrapper {
+    width: 100%;
+    margin: 150px 20px 0 20px;
+}
+
+/* -----------------------------------------------------------------------------
+
+    CAR ITEM
+
+----------------------------------------------------------------------------- */
+
+.main-wrapper #car-wrapper .car {
+    display: block;
+    width: 100%;
+    background-color: #EEE;
+    padding: 10px 0;
+}
+
+.main-wrapper #car-wrapper .car img {
+    height: 20px;
+    display: inline-block;
+}
+
+.main-wrapper #car-wrapper .car .update .button {
+    display: inline-block;
+    max-width: 200px;
+    margin: 0 auto;
+    border: 0px;
+}
+
+.main-wrapper #car-wrapper .car .button:hover {
+    background-color: #e76c07;
+    color: #FFF;
+}
+
+/* -----------------------------------------------------------------------------
+
+    ADD NEW CAR
+
+----------------------------------------------------------------------------- */
+
+.main-wrapper #addnewcar {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: #e76c07;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.main-wrapper #addnewcar p {
+    line-height: 100px;
+    color: #FFF;
+    font-size: 48px;
+}
