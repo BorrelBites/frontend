@@ -8,6 +8,7 @@
 .small-left-indent { margin-left: 20px; }
 .small-right-indent { margin-right: 20px; }
 .center-link { margin: 0 auto;}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -31,26 +32,44 @@ a {
 
 ----------------------------------------------------------------------------- */
 
-.main-wrapper #car-wrapper .car {
+#car-wrapper .car {
     display: block;
     width: 100%;
     background-color: #EEE;
-    padding: 10px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #CCC;
 }
 
-.main-wrapper #car-wrapper .car img {
-    height: 20px;
+#car-wrapper .manufacturer, #car-wrapper .car-detail, #car-wrapper .arrow {
     display: inline-block;
 }
 
-.main-wrapper #car-wrapper .car .manufacturer {
-    height: 60px;
-    display: inline-block;
-    margin-top: -60px;
+#car-wrapper .manufacturer {
+    width: 34px;
+    margin: -4px 13px 0 13px;
+    float: left;
+}
+
+#car-wrapper .car-detail {
+    width: calc(100% - 125px);
+}
+
+#car-wrapper .car-detail-left {
+    float: left;
+    margin-left: 5px;
+}
+
+#car-wrapper .car-detail-right {
+    float: right;
+    margin-right: 5px;
+}
+
+#car-wrapper .arrow {
+    width: 24px;
+    margin: 0 3px;
 }
 
 .main-wrapper #car-wrapper .car .update .button {
-    display: inline-block;
     max-width: 200px;
     margin: 0 auto;
     border: 0px;
