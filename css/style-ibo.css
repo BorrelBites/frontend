@@ -142,13 +142,13 @@ a {
     padding-left: 20px;
     padding-top: 20px;
 }
-#review-wrapper #review-changes {
+.review-changes {
     display: block;
     margin: 40px 20px 20px 0px;
     padding: 20px;
     background-color: #EEE;
 }
-#review-changes li {
+.review-changes li {
     list-style: none;
 }
 #review-wrapper textarea {
